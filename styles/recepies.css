@@ -1,0 +1,14 @@
+body{
+    background-color: #ff5733;
+    font-size: 20px;
+    color: #DAF7A6;
+}
+#title{
+    text-align: center;
+    font-size: 50px;
+    color: #DAF7A6;
+}
+#subtitle{
+    font-size: 40px;
+    color: gold;
+}
