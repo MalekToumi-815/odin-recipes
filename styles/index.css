@@ -1,19 +1,38 @@
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    gap: 20px;
+}
 h1{
-    text-align: center;
-    font-size: 50px;
+    text-align: left;
+    font-size: 6vw; 
     color: #DAF7A6;
+    flex: 2;
 }
 img{
-    height: 400px;
-    width: auto;
+    height: auto;
+    width: 30%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
     border-radius: 50%;
+    border: 1vw solid black;
+    flex: 1;
 }
 #recipes-list{
-    font-size: 30px;
+    justify-content: center;    
+    align-items: center; 
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 .food{
+    font-size: 3vw;
     color: #FFC300;
     text-decoration-line: none;
+    margin: 40px;
 }
 body{
     background-color:red;
